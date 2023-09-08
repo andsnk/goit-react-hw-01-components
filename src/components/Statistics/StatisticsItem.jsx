@@ -1,8 +1,11 @@
+import css from './StatisticsItem.module.css';
+import { getRandomHexColor } from './randomColor';
+
 export const StatisticsItem = ({ label, percentage }) => {
   return (
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}%</span>
+    <li className={css.item} style={{ backgroundColor: getRandomHexColor() }}>
+      <span className={css.label}>{label}</span>
+      <span className={css.percentage}>{percentage}%</span>
     </li>
   );
 };

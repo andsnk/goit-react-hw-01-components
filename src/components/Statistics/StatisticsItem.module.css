@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  /* border-radius: 0 0 5px 5px; */
+  width: calc(100% / 5);
+}
+
+.item:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+.item:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+.label {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.percentage {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}

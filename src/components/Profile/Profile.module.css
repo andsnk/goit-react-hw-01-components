@@ -8,8 +8,6 @@
   box-shadow: 0 2px 3px rgba(101, 101, 101, 0.1),
     0 -2px 3px rgba(101, 101, 101, 0.1), 2px 0 3px rgba(101, 101, 101, 0.1),
     -2px 0 3px rgba(101, 101, 101, 0.1);
-
-  /* filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.2)); */
   border-radius: 5px;
 }
 
@@ -36,17 +34,12 @@
 .tag {
   margin-bottom: 10px;
   color: #a1abb6;
-  /* font-size: ; */
 }
 
 .location {
   color: #a1abb6;
 }
 
-/* .container {
-  background-color: #e7ecf2;
-  width: 100%;
-} */
 .stats {
   display: flex;
   justify-content: center;
